@@ -1,0 +1,70 @@
+NOME: Abelirio Rocha
+NMEC: 142185
+
+Como aceder o ficheiro
+por ordem
+-ls
+-cd '.\Desktop\universidade\ano1\laboratorio de informatica\teste 3\'
+
+tarefa 1- 
+echo para criar o ficheiro identificação.txt
+printf "Abelirio Augusto Galvão Rocha\n142185">identificação.txt
+git add identificacao.txt
+git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+git push
+
+tarefa 2-
+mkdir A142185
+echo "Teste LI 2026/2027" > README.md
+cd ..
+history > cmdstask2.txt
+git add A142185/README.md cmdstask2.txt
+git commit -m "2.ª Tarefa concluída"
+git pull origin main
+git push origin main
+
+tarefa 3-
+git clone https://github.com/arrochabb/LABINFO-03-26-27.git
+touch "index.html"
+peguei o modelo base do bootstrap
+git add index.htm
+git commit -m "3.ª tarefa concluída"
+git push
+
+
+================Comandos Codespace ==============
+  git init
+    2  mkdir A142185
+    3  cd A142185/
+    4  pwd
+    5  echo README.md
+    6  ls
+    7  echo "Teste de LI 2026/2027" > README.md
+    8  ls
+    9  cat README.md 
+   10  cd ..
+   11  history > cmdstask2.txt
+   12  git add A142185/README.md cmdstask2.txt 
+   13  git commit -m "2.ª tarefa concluída"
+   14  git push origin main
+   15  git push origin main --rebase
+   16  git push origin main
+   17  git pull origin main --rebase
+   18  git push origin main
+   19  touch "index.html"
+   20  ls
+   21  git add index.html 
+   22  git -m "3ª tarefa concluida"
+   23  git commit -m "3ª tarefa concluida"
+   24  git push
+   25  git push origin main
+   26  histoey > meusComandosCodespace.txt
+
+(Não possuo comandos locais)
+
+Comandos finais da Tarefa 6 (não incluídos nos históricos acima):
+# Codespace:
+git add meusComandosCodespace.txt
+git commit -m "Tarefa 6: regista o histórico do Codespace"
+git push origin main
+

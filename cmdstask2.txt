@@ -1,0 +1,11 @@
+    1  git init
+    2  mkdir A142185
+    3  cd A142185/
+    4  pwd
+    5  echo README.md
+    6  ls
+    7  echo "Teste de LI 2026/2027" > README.md
+    8  ls
+    9  cat README.md 
+   10  cd ..
+   11  history > cmdstask2.txt
